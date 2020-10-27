@@ -77,8 +77,8 @@
                     </div>
                     <div class="${properties.kcFormOptionsWrapperClass!}">
                         <span>
-                            ${msg("termsRegisterWarning")} <a style="margin-left:0px" tabindex="6" href="${properties.termsLink}">${msg("termsOfUse")}</a>
-                            ${msg("termsAnd")} <a style="margin-left:0px" tabindex="6" href="${properties.privacyLink}">${msg("privacyPolicy")}</a>
+                            ${msg("termsRegisterWarning")} <a style="margin-left:0px" target="_blank" tabindex="6" href="${properties.termsLink}">${msg("termsOfUse")}</a>
+                            ${msg("termsAnd")} <a style="margin-left:0px" target="_blank" tabindex="6" href="${properties.privacyLink}">${msg("privacyPolicy")}</a>
                         </span>
                     </div>
                 </div>
